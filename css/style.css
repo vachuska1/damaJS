@@ -1,0 +1,119 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #554e4e;
+}
+.gameField {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  width: 1600px;
+  height: 1600px;
+  margin: 8% auto;
+  border: 3px solid #c5ff07;
+}
+.field {
+  position: relative;
+}
+.field--1,
+.field--3,
+.field--5,
+.field--7,
+.field--10,
+.field--12,
+.field--14,
+.field--16,
+.field--17,
+.field--19,
+.field--21,
+.field--23,
+.field--26,
+.field--28,
+.field--30,
+.field--32,
+.field--33,
+.field--35,
+.field--37,
+.field--39,
+.field--42,
+.field--44,
+.field--46,
+.field--48,
+.field--49,
+.field--51,
+.field--53,
+.field--55,
+.field--58,
+.field--60,
+.field--62,
+.field--64 {
+  background-color: white;
+}
+.field--2,
+.field--4,
+.field--6,
+.field--8,
+.field--9,
+.field--11,
+.field--13,
+.field--15,
+.field--18,
+.field--20,
+.field--22,
+.field--24,
+.field--25,
+.field--27,
+.field--29,
+.field--31,
+.field--34,
+.field--36,
+.field--38,
+.field--40,
+.field--41,
+.field--43,
+.field--45,
+.field--47,
+.field--50,
+.field--52,
+.field--54,
+.field--56,
+.field--57,
+.field--59,
+.field--61,
+.field--63 {
+  background-color: black;
+}
+.figurine {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  opacity: 0.8;
+  border-radius: 50%;
+  top: 45px;
+  left: 45px;
+  z-index: 1;
+}
+.figurine--1,
+.figurine--3,
+.figurine--5,
+.figurine--7,
+.figurine--10,
+.figurine--12,
+.figurine--14,
+.figurine--16 {
+  background-color: #06e411;
+}
+.figurine--49,
+.figurine--51,
+.figurine--53,
+.figurine--55,
+.figurine--58,
+.figurine--60,
+.figurine--62,
+.figurine--64 {
+  background-color: #6e02ac;
+}
+.button {
+  font-size: 40px;
+  padding: 60px;
+}
